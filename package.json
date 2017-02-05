@@ -1,0 +1,24 @@
+{
+  "name": "nodeexperiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/app.js",
+  "dependencies": {
+    "csv-parse": "^1.1.10",
+    "geojson": "^0.4.0",
+    "inversify": "^3.0.0",
+    "leaflet": "^1.0.3",
+    "mapbox": "^1.0.0-beta5",
+    "reflect-metadata": "^0.1.9"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jasmine": "^2.5.3",
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

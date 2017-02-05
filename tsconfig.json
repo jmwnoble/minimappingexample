@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true,
+        "watch": true,
+        "outDir": "./dist",
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "types": [
+            "reflect-metadata"
+        ],
+        "lib": ["es6", "dom"],
+        "emitDecoratorMetadata": true
+    },
+    "compileOnSave": true
+}

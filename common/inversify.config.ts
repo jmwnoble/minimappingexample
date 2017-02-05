@@ -1,0 +1,10 @@
+import { Container } from "inversify";
+import { TYPES } from "./types";
+import { mapClient } from "../mapClient";
+import { LondonTransportData } from "../londonTransportData";
+import { Main } from "../app";
+var myContainer = new Container();
+myContainer.bind<mapClient>(TYPES.MapClient).to(mapClient);
+myContainer.bind<LondonTransportData>(TYPES.LondonTransportData).to(LondonTransportData);
+myContainer.bind<Main>(TYPES.Main).to(Main);
+export { myContainer };
